@@ -14,7 +14,7 @@ const [charLimit, setCharLimit] = useState(50);
 <input type ="range" defaultValue={padding}  onChange={(e)=>{setPadding(e.target.value+"px");}} min={1} max={32}/>
     </div
 id ="changing-div"
-style={{ backgroundColor: "white", padding:padding, margin:"20px 0px",
+style={{ backgroundColor:color, color: "white", padding:padding, margin:"20px 0px",
       }}
   >
     {inputText}
